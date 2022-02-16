@@ -7,7 +7,8 @@
     - CSS3
         - Flexbox;
         - Grid layout;
-        - Media queries
+        - Media queries;
+        - Animações;
 
 <br>
 <br>
