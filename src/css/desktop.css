@@ -79,6 +79,14 @@ section{
     justify-content: space-between;
     grid-area: left;
     border-radius: 0 0 0 8px;
+    /* Animação */
+    transition: transform 0.5s;
+}
+
+/* 4.1 Definindo box left - animação */
+
+section:hover{
+    transform: scale(1.2);
 }
 
 section h3{
@@ -89,7 +97,7 @@ section h3{
 }
 
 
-/* 4.1 Definindo box left - preço e legenda */
+/* 4.2 Definindo box left - preço e legenda */
 .preco{
     display: flex;
     align-items: center;
@@ -107,7 +115,7 @@ section h3{
     margin-left: 10px;
 }
 
-/* 4.2 Definindo box left - frase */
+/* 4.3 Definindo box left - frase */
 section p{
     color: white;
     font-size: medium;
@@ -115,7 +123,7 @@ section p{
     margin-bottom: 16px;
 }
 
-/* 4.3 Definindo box left - botão */
+/* 4.4 Definindo box left - botão */
 
 button{
     height: 50px;
@@ -125,6 +133,17 @@ button{
     color: white;
     font-size: large;
     font-weight: 700;
+    /* Animação */
+    transition: 
+        background-color, 0.6s,
+        color, 0.6s;
+}
+
+/* 4.5 Definindo box left - Animaçõa botão */
+
+button:hover{
+    background-color: white;
+    color: hsl(179, 62%, 43%);
 }
 
 
@@ -135,6 +154,15 @@ aside{
     grid-area: right;
     background-color: hsl(179, 51%, 53%);
     border-radius: 0 0 8px 0;
+    /* Animação */
+    transition: transform 0.5s;
+}
+
+
+/* 5.1 Definindo box right - animações */
+
+aside:hover{
+    transform: scale(1.2);
 }
 
 aside h3{
